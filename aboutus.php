@@ -46,7 +46,7 @@ if( isset($_POST['subscribebutton'] ))
 </head>
 <body> 
     <!-- navigation bar here -->
-    <!-- <nav class="navbar navbar-expand-lg bg-light fixed-top shadow ">
+   <nav class="navbar navbar-expand-lg bg-light fixed-top shadow ">
      <div class="container-fluid">
          <a href="#" class="navbar-brand">Zalego Academy</a>
          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDisplayNavigations" aria-expanded="false" link>
@@ -61,7 +61,7 @@ if( isset($_POST['subscribebutton'] ))
  
             </div>
      </div>
-    </nav> -->
+    </nav> 
     <main class="p-5 mb-4 bg-primary rounded-2">
         <h1 style="line-height: 20vh;">About us</h1>
         <p>This is a template for a marketing or informational website.
