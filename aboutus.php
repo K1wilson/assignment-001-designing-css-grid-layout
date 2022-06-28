@@ -25,13 +25,8 @@ if( isset($_POST['subscribebutton'] ))
 
     
 }
-
-
-
-
-
-
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -56,7 +51,7 @@ if( isset($_POST['subscribebutton'] ))
                    <div class="navbar-nav">
                         <a href="index.php" class="nav-link">Home</a>
                         <a href="aboutus.php" class="nav-link active">About us</a>
-                        <a href="#" class="nav-link">Contact us</a>
+                        <a href="enroll.php" class="nav-link"> <button class="btn btn-primary">Register</button></a>
              </div>
  
             </div>
@@ -133,7 +128,7 @@ if( isset($_POST['subscribebutton'] ))
          <form action="aboutus.php" method="POST">
                 <div class="row d-flex align-items-center">
                     <div class="mb-3 col-lg-6  d-flex align-items-center" >
-                        <input type="text" class="form-control" name="email" placeholder="Your email address">
+                        <input type="emaill" class="form-control" name="email" placeholder="Your email address">
                     </div>
                     <div class="mb-3 col-lg-6 " >
                         <button class="btn btn-primary mb-3" name="subscribebutton">Subscribe</button>
